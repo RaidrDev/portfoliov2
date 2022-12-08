@@ -1,0 +1,14 @@
+@font-face {
+  font-family: chill;
+  src: url(fonts/ChillPixels-Mono.otf);
+}
+
+* {
+  margin: 0;
+  font-family: chill, sans-serif;
+  background-color: #f6d4b1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+

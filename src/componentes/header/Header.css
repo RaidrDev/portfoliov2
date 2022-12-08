@@ -1,0 +1,33 @@
+.navbar{
+  width: 100vw;
+  padding: 20px;
+  margin-left: 20px;
+  position: fixed;
+  background: transparent;
+  z-index: 1;
+}
+
+.n-button{
+  display: inline-flex;
+  background-color: #525252;
+  box-shadow: 6px 6px 0px rgb(82 82 82 / 25%);
+  cursor: pointer;
+  padding: 7px 16px;
+  transition: all 0.5s;
+  border: #f6d4b1 solid 2px;  
+}
+
+
+.n-button:hover{ 
+  transform: scale(1.1);
+}
+
+svg{
+  background-color: #525252;
+}
+
+@media  screen and (max-width: 817px){
+  .n-button{ 
+    padding: 7px 12px;
+  }
+}
